@@ -1,0 +1,10 @@
+.Quote {
+  border: 2px solid #666;
+  margin-bottom: 0.5em;
+}
+
+.Quote__symbol {
+  font-size: 120%;
+  color: #666;
+  padding: 0 2px;
+}
