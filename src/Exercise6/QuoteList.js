@@ -19,8 +19,13 @@ function QuoteList() {
   return (
     <div className="QuoteList">
       <h2>Quote List</h2>
-      {quotes.map((quote) => (
-        <Quote author={quote.author} text={quote.text} date={quote.date} />
+      {quotes.map((quote, i) => (
+        <Quote
+          key={i}
+          author={quote.author}
+          text={quote.text}
+          date={quote.date}
+        />
       ))}
     </div>
   );
