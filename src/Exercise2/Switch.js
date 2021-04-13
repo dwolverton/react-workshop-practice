@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Switch.css";
 
 function Switch() {
-  const [on, setOn] = useState();
+  const [on, setOn] = useState(false);
   const stateClass = on ? "Switch--on" : "Switch--off";
 
   return (

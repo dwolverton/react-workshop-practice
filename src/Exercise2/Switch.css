@@ -6,6 +6,9 @@
 }
 
 .Switch--off {
-  background-color: black;
+}
+
+.Switch--on {
+  background-color: blue;
   color: white;
 }

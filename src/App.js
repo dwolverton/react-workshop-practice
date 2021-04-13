@@ -12,13 +12,13 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      {/* <Exercise1 />
+      <Exercise1 />
       <Exercise2 />
-      <Exercise3 /> */}
+      <Exercise3 />
       <Exercise4 />
-      {/* <Exercise5 />
+      <Exercise5 />
       <Exercise6 />
-      <Exercise7 /> */}
+      <Exercise7 />
       <Exercise8 />
     </div>
   );

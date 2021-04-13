@@ -6,7 +6,7 @@ function Exercise7() {
   return (
     <section className="exercise">
       <QuoteListBonus />
-      <QuoteList />
+      {/* <QuoteList /> */}
     </section>
   );
 }

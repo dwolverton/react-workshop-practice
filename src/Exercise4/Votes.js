@@ -37,9 +37,11 @@ function Votes() {
         style={{ width: percentages.strawberry }}
       ></div>
       <div className="Buttons">
-        <button onClick={() => setChocolate(chocolate + 1)}>Chocolate</button>
-        <button onClick={() => setVanilla(vanilla + 1)}>Vanilla</button>
-        <button onClick={() => setStrawberry(strawberry + 1)}>
+        <button onClick={() => setChocolate((prev) => prev + 1)}>
+          Chocolate
+        </button>
+        <button onClick={() => setVanilla((prev) => prev + 1)}>Vanilla</button>
+        <button onClick={() => setStrawberry((prev) => prev + 1)}>
           Strawberry
         </button>
       </div>

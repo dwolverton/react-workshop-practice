@@ -12,11 +12,11 @@ function Switch() {
       <p>
         {on ? (
           <button type="button" onClick={() => setOn(false)}>
-            Off
+            Turn Off
           </button>
         ) : (
           <button type="button" onClick={() => setOn(true)}>
-            On
+            Turn On
           </button>
         )}
       </p>
