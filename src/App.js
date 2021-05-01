@@ -7,6 +7,7 @@ import Exercise5 from "./Exercise5/Exercise5";
 import Exercise6 from "./Exercise6/Exercise6";
 import Exercise7 from "./Exercise7/Exercise7";
 import Exercise8 from "./Exercise8/Exercise8";
+import Exercise9 from "./Exercise9/Exercise9";
 import "./styles.css";
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Exercise6 />
       <Exercise7 />
       <Exercise8 />
+      <Exercise9 />
     </div>
   );
 }
